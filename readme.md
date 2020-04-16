@@ -26,5 +26,5 @@ $values = array("key_1","value_2");
 $entity->setFieldValues(\$values);
 
 //perform operation
-$entity->add();
+$entity->insert();
 ```

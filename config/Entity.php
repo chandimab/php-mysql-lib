@@ -50,7 +50,7 @@ class Entity{
         }
     }
 
-    function add(){
+    function insert(){
 
         // query to insert record
         $query = "INSERT IGNORE INTO
