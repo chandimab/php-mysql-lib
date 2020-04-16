@@ -1,7 +1,12 @@
 ### Minimal PHP Library to Manipulate MySQL database
 
-#### Just write the config file and good to go
-
+The MySQL table used in this example
+```MySQL
+CREATE TABLE `Config` (
+  `Config_Key` varchar(255) NOT NULL,
+  `Config_Value` varchar(255) NOT NULL
+)
+```
 
 ```PHP
 //database connection
